@@ -1,0 +1,26 @@
+$navbar-item-color: #ffffff;
+$navbar-background-color: none;
+$family-primary: Montserrat;
+$family-secondary: Montserrat;
+$navbar-item-hover-color: #ffffff;
+$navbar-item-hover-background-color: none;
+
+#root {
+  background: #000000;
+}
+
+div.base-app div.swell-campaigns-container {
+  min-height: 100vh;
+}
+
+div.swell-campaigns-container {
+  background-color: #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "./components/cards/Cards";
+@import "components/campaign/Campaign";
+@import "./components/header/Header";
+@import "./components/hero/Hero";
+@import "~bulma-carousel/src/sass/index";
+@import "~bulma/bulma";

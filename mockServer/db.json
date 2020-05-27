@@ -1,0 +1,104 @@
+{
+  "campaign_highlight": [
+    {
+      "recipient": "NJ Food Pantries",
+      "location": "Millburn, NJ",
+      "item_requested": "Diapers",
+      "item_amount": 1800,
+      "amount_fulfilled": 0,
+      "image_link": "/mocks/mock1.jpg"
+    },
+    {
+      "recipient": "NJ Food Pantries",
+      "location": "Piscataway, NJ",
+      "item_requested": "Baby Wipes",
+      "item_amount": 1000,
+      "amount_fulfilled": 200,
+      "image_link": "/mocks/mock2.jpg"
+    },
+    {
+      "recipient": "St. Barnabas Hospital Network",
+      "location": "Orange, NJ",
+      "item_requested": "Masks",
+      "item_amount": 2250,
+      "amount_fulfilled": 0,
+      "image_link": "/mocks/mock3.jpg"
+    }
+  ],
+  "campaign_latest": [
+    {
+      "recipient": "Habitats for Humanity",
+      "location": "Asbury Park, NJ",
+      "item_requested": "Diapers",
+      "item_amount": 800,
+      "amount_fulfilled": 100,
+      "image_link": "/image/link"
+    },
+    {
+      "recipient": "Boys and Girls Club of NJ",
+      "location": "Union, NJ",
+      "item_requested": "Hand Sanitizer",
+      "item_amount": 1000,
+      "amount_fulfilled": 200,
+      "image_link": "/image/link"
+    },
+    {
+      "recipient": "NJ Food Pantries",
+      "location": "Cape May, NJ",
+      "item_requested": "Masks",
+      "item_amount": 2250,
+      "amount_fulfilled": 0,
+      "image_link": "/image/link"
+    }
+  ],
+  "campaign_all": [
+    {
+      "recipient": "NJ Food Pantries",
+      "location": "Millburn, NJ",
+      "item_requested": "Diapers",
+      "item_amount": 1800,
+      "amount_fulfilled": 0,
+      "image_link": "/image/link"
+    },
+    {
+      "recipient": "NJ Food Pantries",
+      "location": "Piscataway, NJ",
+      "item_requested": "Baby Wipes",
+      "item_amount": 1000,
+      "amount_fulfilled": 200,
+      "image_link": "/image/link"
+    },
+    {
+      "recipient": "St. Barnabas Hospital Network",
+      "location": "Orange, NJ",
+      "item_requested": "Masks",
+      "item_amount": 2250,
+      "amount_fulfilled": 0,
+      "image_link": "/image/link"
+    },
+    {
+      "recipient": "Habitats for Humanity",
+      "location": "Asbury Park, NJ",
+      "item_requested": "Diapers",
+      "item_amount": 800,
+      "amount_fulfilled": 100,
+      "image_link": "/image/link"
+    },
+    {
+      "recipient": "Boys and Girls Club of NJ",
+      "location": "Union, NJ",
+      "item_requested": "Hand Sanitizer",
+      "item_amount": 1000,
+      "amount_fulfilled": 200,
+      "image_link": "/image/link"
+    },
+    {
+      "recipient": "NJ Food Pantries",
+      "location": "Cape May, NJ",
+      "item_requested": "Masks",
+      "item_amount": 2250,
+      "amount_fulfilled": 0,
+      "image_link": "/image/link"
+    }
+  ]
+}
