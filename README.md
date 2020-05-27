@@ -18,6 +18,10 @@ in the app root directory, install dependencies.
 
 `npm i`
 
+create `env.local` file to add the following.
+
+`REACT_APP_API_URL="http://localhost:3000"`
+
 once dependencies are installed, start local react server.
 
 `npm start`
@@ -28,4 +32,4 @@ bundle the application by running a build:
 
 `npm run build`
 
-bundled files will reside in the `/build` directory. 
+bundled files will reside in the `/build` directory.
