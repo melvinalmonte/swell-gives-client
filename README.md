@@ -1,6 +1,6 @@
 ## swell-gives-client
 
-###Starting the mock server:
+### Starting the mock server:
 
 `cd mockServer`
 
@@ -12,7 +12,7 @@ once dependencies are met, start server by running:
 
 `npm start`
 
-###Starting the application
+### Starting the application
 
 in the app root directory, install dependencies.
 
@@ -22,7 +22,7 @@ once dependencies are installed, start local react server.
 
 `npm start`
 
-###build application
+### Build application
 
 bundle the application by running a build:
 
