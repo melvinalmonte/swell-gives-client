@@ -65,7 +65,6 @@ const Header = ({ dark }) => {
                   <a
                     className="navbar-item"
                     href={process.env.REACT_APP_COGNITO_AUTH}
-                    target="_blank"
                   >
                     Sign In
                   </a>
