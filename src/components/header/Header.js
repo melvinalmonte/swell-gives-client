@@ -1,13 +1,15 @@
 import React from "react";
 
 const Header = ({ dark }) => {
+  const [show, setShow] = React.useState(false);
+  const showHandler = () => (show ? setShow(false) : setShow(true));
   return (
     <section className="section swell-header-base">
       <div className="container">
         <div className="columns is-centered">
           <div className="column is-10">
             <nav
-              className="navbar"
+              className="navbar "
               role="navigation"
               aria-label="main navigation"
             >
@@ -19,8 +21,9 @@ const Header = ({ dark }) => {
                 </a>
 
                 <a
+                  onClick={showHandler}
                   role="button"
-                  className="navbar-burger burger"
+                  className={`navbar-burger burger ${show ? "is-active" : ""}`}
                   aria-label="menu"
                   aria-expanded="false"
                   data-target="navbarBasicExample"
@@ -31,8 +34,14 @@ const Header = ({ dark }) => {
                 </a>
               </div>
 
-              <div className={dark ? "navbar-menu dark" : "navbar-menu"}>
-                <div className="navbar-start swell-nav-start">
+              <div
+                className={
+                  dark
+                    ? `navbar-menu dark ${show ? "is-active" : ""}`
+                    : `navbar-menu ${show ? "is-active" : ""}`
+                }
+              >
+                <div className="navbar-start swell-nav-start ">
                   <a className="navbar-item" href={"/"}>
                     Home
                   </a>
@@ -53,9 +62,14 @@ const Header = ({ dark }) => {
                 </div>
 
                 <div className="navbar-end">
-                  <a className="navbar-item" href={"/signIn"}>
+                  <a
+                    className="navbar-item"
+                    href={process.env.REACT_APP_COGNITO_AUTH}
+                    target="_blank"
+                  >
                     Sign In
                   </a>
+                  {console.log("COGNITO", process.env.REACT_APP_COGNITO_AUTH)}
                 </div>
               </div>
             </nav>

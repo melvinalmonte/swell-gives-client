@@ -16,7 +16,7 @@ const CampaignContainer = () => {
 
   return (
     <Campaign>
-      {campaign.map(item => (
+      {campaign.map((item) => (
         <div className="column">
           <Cards
             recipient={item.recipient}
