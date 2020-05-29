@@ -66,7 +66,7 @@ const Header = ({ dark }) => {
                     className="navbar-item"
                     href={process.env.REACT_APP_COGNITO_AUTH}
                   >
-                    Sign In
+                    Sign In / Sign Up
                   </a>
                   {console.log("COGNITO", process.env.REACT_APP_COGNITO_AUTH)}
                 </div>
