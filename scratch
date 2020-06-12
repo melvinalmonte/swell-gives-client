@@ -1,0 +1,84 @@
+**SCSS FIXED HEADER**
+
+.tableFixHead {
+  overflow-y: auto;
+  height: 100px;
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  top: 0;
+}
+
+.tableFixHead table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableFixHead th,
+td {
+  padding: 8px 16px;
+}
+
+.tableFixHead th {
+  background: #eee;
+}
+
+.custom-icon {
+  float: right;
+}
+
+**SAMPLE TABLE**
+
+const Table1 = () => (
+    <div className="tableFixHead">
+      <table className="table is-fullwidth">
+        <thead>
+          <tr>
+            <th>
+              <span>GitHub</span>
+              <span className="icon custom-icon">
+                <i className="fab fa-github" />
+              </span>
+            </th>
+            <th>
+              <span>GitHub 2</span>
+              <span className="icon custom-icon">
+                <i className="fab fa-github" />
+              </span>{" "}
+            </th>
+            <th>
+              <p>Actions 3</p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A1</td>
+            <td>A2</td>
+            <td>A2</td>
+          </tr>
+          <tr>
+            <td>B1</td>
+            <td>B2</td>
+            <td>B3</td>
+          </tr>
+          <tr>
+            <td>C1</td>
+            <td>C2</td>
+            <td>C3</td>
+          </tr>
+          <tr>
+            <td>D1</td>
+            <td>D2</td>
+            <td>D3</td>
+          </tr>
+          <tr>
+            <td>E1</td>
+            <td>E2</td>
+            <td>E3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+);
